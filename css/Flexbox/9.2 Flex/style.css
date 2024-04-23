@@ -1,0 +1,60 @@
+.container{
+    border: 5px solid orange;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height:70vh;
+    margin-left: 150px
+}
+
+.container>div{
+    color:white;
+    display: flex;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    width:70px;
+    align-items: center;
+    height:5vh;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+html{
+    background-color: black;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+    align-items: flex-start;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.violet{
+    background-color: violet;
+}
