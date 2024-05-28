@@ -9,7 +9,7 @@ mkdir --> make directory(Create folder)
 type nul> new.pptx --> creates a new file.pptx
 ren prev_name newname --> change name from prev_name to new_name
 del file --> delete file
-rmdir --> delete folder
+rmdir /s file--> delete folder
 copy file_name prev_location new_location --> copy file
 move file_name prev_location new_location --> move file
 
